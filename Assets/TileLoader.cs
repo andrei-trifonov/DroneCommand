@@ -182,6 +182,19 @@ public class TileLoader : MonoBehaviour
 
         return new Vector3(dx, 0, dz);
     }
+    public Vector3 LatLonToWorld2(double lat, double lon)
+    {
+        int centerX = LonToTileX(centerLon, zoom);
+        int centerY = LatToTileY(centerLat, zoom);
+
+        float x = LonToX(lon, zoom);
+        float y = LatToY(lat, zoom);
+
+        float dx = x - centerX;
+        float dz = centerY - y; // перевёрнут по Z (Y на карте)
+
+        return new Vector3(dx, 0, dz);
+    }
     public Vector2 WorldToLatLon(Vector3 world)
     {
         int centerX = LonToTileX(centerLon, zoom);

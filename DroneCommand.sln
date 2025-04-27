@@ -1,19 +1,67 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ShaderGraph.Editor", "Unity.ShaderGraph.Editor.csproj", "{8a89fd00-263d-87a9-7b09-068850a17ccd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest", "WaveHarmonic.Crest.csproj", "{7962ac12-76e6-f323-5e06-dda54477a779}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{136008b7-30f6-ba51-6d7f-cb43e7aff8ce}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Core.Editor", "Unity.RenderPipelines.Core.Editor.csproj", "{4fe6757d-5747-7e5d-e3b1-b6fed0b35f1c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest.Shared", "WaveHarmonic.Crest.Shared.csproj", "{17b9f15f-45f1-c345-0a21-ae44d179b169}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{79514bb9-0c22-7ef7-d87d-71f40129a4ea}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest.Samples", "WaveHarmonic.Crest.Samples.csproj", "{e9f375d4-1b7a-0fa7-7344-c5ebf0d809e9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest.Samples.Boats", "WaveHarmonic.Crest.Samples.Boats.csproj", "{bae44318-01b6-b9b0-5943-84630fba21de}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest.Shared.Editor", "WaveHarmonic.Crest.Shared.Editor.csproj", "{72a848fd-09e1-1e12-8f0c-282e611ea76b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest.Scripting", "WaveHarmonic.Crest.Scripting.csproj", "{15a797ae-ac37-2063-71ed-87584d4b6ecd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest.Editor", "WaveHarmonic.Crest.Editor.csproj", "{903729f2-b4fd-1cb9-5fda-ded507fb17f4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest.Samples.Examples", "WaveHarmonic.Crest.Samples.Examples.csproj", "{67fbcaaa-73b2-5472-7fbc-e5af9e72cd49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest.Samples.Ripples", "WaveHarmonic.Crest.Samples.Ripples.csproj", "{e5d8ff3c-c938-c53b-954b-9ae87eec1127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveHarmonic.Crest.Editor.Dependents", "WaveHarmonic.Crest.Editor.Dependents.csproj", "{9de1659b-0c18-19fe-ecb0-d4070a741230}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8a89fd00-263d-87a9-7b09-068850a17ccd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8a89fd00-263d-87a9-7b09-068850a17ccd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7962ac12-76e6-f323-5e06-dda54477a779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7962ac12-76e6-f323-5e06-dda54477a779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{136008b7-30f6-ba51-6d7f-cb43e7aff8ce}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{136008b7-30f6-ba51-6d7f-cb43e7aff8ce}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4fe6757d-5747-7e5d-e3b1-b6fed0b35f1c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4fe6757d-5747-7e5d-e3b1-b6fed0b35f1c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17b9f15f-45f1-c345-0a21-ae44d179b169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17b9f15f-45f1-c345-0a21-ae44d179b169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79514bb9-0c22-7ef7-d87d-71f40129a4ea}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79514bb9-0c22-7ef7-d87d-71f40129a4ea}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e9f375d4-1b7a-0fa7-7344-c5ebf0d809e9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e9f375d4-1b7a-0fa7-7344-c5ebf0d809e9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bae44318-01b6-b9b0-5943-84630fba21de}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bae44318-01b6-b9b0-5943-84630fba21de}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72a848fd-09e1-1e12-8f0c-282e611ea76b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72a848fd-09e1-1e12-8f0c-282e611ea76b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15a797ae-ac37-2063-71ed-87584d4b6ecd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15a797ae-ac37-2063-71ed-87584d4b6ecd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903729f2-b4fd-1cb9-5fda-ded507fb17f4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903729f2-b4fd-1cb9-5fda-ded507fb17f4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67fbcaaa-73b2-5472-7fbc-e5af9e72cd49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67fbcaaa-73b2-5472-7fbc-e5af9e72cd49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e5d8ff3c-c938-c53b-954b-9ae87eec1127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e5d8ff3c-c938-c53b-954b-9ae87eec1127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9de1659b-0c18-19fe-ecb0-d4070a741230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9de1659b-0c18-19fe-ecb0-d4070a741230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
