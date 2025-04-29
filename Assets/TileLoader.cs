@@ -104,7 +104,9 @@ public class TileLoader : MonoBehaviour
                 position1 = new Vector3(position1.x, -0.1f, position1.z);
                 tileOStreetM.transform.position = position1;
                 tileOSeaM.transform.parent = this.transform;
-                StartCoroutine(LoadTileImage($"https://tiles.openseamap.org/seamark/{zoom}/{tileX}/{ tileY}.png", tileOSeaM, tileX, tileY, zoom));
+               // StartCoroutine(LoadTileImage($"https://tiles.openseamap.org/seamark/{zoom}/{tileX}/{ tileY}.png", tileOSeaM, tileX, tileY, zoom));
+               StartCoroutine(LoadTileImage($"https://tiles.openseamap.org/waterdepth_trackpoints_10m/{zoom}/{tileX}/{ tileY}.png", tileOSeaM, tileX, tileY, zoom));
+               
                 StartCoroutine(LoadTileImage($"https://tile.openstreetmap.org/{zoom}/{tileX}/{ tileY}.png", tileOStreetM, tileX, tileY, zoom));
             }
         }
