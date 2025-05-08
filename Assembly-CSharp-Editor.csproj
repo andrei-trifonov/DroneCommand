@@ -71,6 +71,7 @@
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Editor\PropertyDrawers\OnlineMapsMarker3DPropertyDrawer.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Editor\LocationService\OnlineMapsLocationServiceEditor.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Editor\Controls\OnlineMapsControlBase2DEditor.cs" />
+    <Compile Include="Assets\Lidar\Dowloads\WorldInThePocket\Material\Editor\StandardShaderVCGUI.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Editor\Windows\OnlineMapsCustomURLWizard.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Editor\LocationService\OnlineMapsLocationServiceEditorBase.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Editor\Elevations\OnlineMapsArcGISElevationManagerEditor.cs" />
