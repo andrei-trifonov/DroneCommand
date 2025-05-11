@@ -900,6 +900,10 @@
       <Project>{e5d8ff3c-c938-c53b-954b-9ae87eec1127}</Project>
       <Name>WaveHarmonic.Crest.Samples.Ripples</Name>
     </ProjectReference>
+    <ProjectReference Include="OccaSoftware.Crosshairs.Editor.csproj">
+      <Project>{5133293c-ee00-1b6f-7632-196c48abc9d4}</Project>
+      <Name>OccaSoftware.Crosshairs.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="WaveHarmonic.Crest.Shared.csproj">
       <Project>{17b9f15f-45f1-c345-0a21-ae44d179b169}</Project>
       <Name>WaveHarmonic.Crest.Shared</Name>

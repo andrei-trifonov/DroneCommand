@@ -74,8 +74,8 @@
     <Compile Include="Assets\Infinity Code\Online maps\Examples\Scripts\Aircraft.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\uGUI\uGUIMarkerDrawer.cs" />
-    <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\MoveMarkersExample.cs" />
     <Compile Include="Assets\Lidar\Scripts\Visualisation\PointCloud.cs" />
+    <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\MoveMarkersExample.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Projections\OnlineMapsProjection.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\ExtraTypes\OnlineMapsSavableItem.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Threading\OnlineMapsThreadManager.cs" />
@@ -84,16 +84,16 @@
     <Compile Include="Assets\Lidar\Scripts\LidarSensor\LidarSensor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\Infinity Code\Online maps\Scripts\Controls\2D\OnlineMapsUIRawImageControl.cs" />
     <Compile Include="Assets\Lidar\Scripts\GUILayout\HeightAsAspectOfWidth.cs" />
+    <Compile Include="Assets\Infinity Code\Online maps\Scripts\Controls\2D\OnlineMapsUIRawImageControl.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Core\OnlineMapsWWW.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\Results\OnlineMapsGooglePlacesResult.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\CreateCustomStylesExample.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\DetectWaterByTextureExample.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\GetCenterPointOfMarkersExample.cs" />
-    <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\OnlineMapsGooglePlaces.cs" />
     <Compile Include="Assets\Lidar\Scripts\GUIControllers\MainMenuButtonScript.cs" />
+    <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\OnlineMapsGooglePlaces.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples\Scripts\HorizonWithoutElevation.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\FindDirectionExample.cs" />
@@ -174,9 +174,9 @@
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\Results\OnlineMapsBingMapsElevationResult.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\CreateMarkerOnClick.cs" />
     <Compile Include="Assets\TileLoader.cs" />
+    <Compile Include="Assets\Lidar\Scripts\LidarSensor\LidarStorage.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\Results\OnlineMapsOpenRouteServiceDirectionResult.cs" />
-    <Compile Include="Assets\Lidar\Scripts\LidarSensor\LidarStorage.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Markers\Instances\OnlineMapsMarkerBillboard.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\OnlineMapsOSMNominatim.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples\Scripts\ZoomArea.cs" />
@@ -196,9 +196,9 @@
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Controls\3D\OnlineMapsTextureControl.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\Results\OnlineMapsGoogleGeocodingResult.cs" />
+    <Compile Include="Assets\Lidar\Scripts\GUIControllers\PlayButton.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples\Scripts\SmoothZoomOnMouseEvents.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\OnlineMapsGoogleElevation.cs" />
-    <Compile Include="Assets\Lidar\Scripts\GUIControllers\PlayButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Markers\Managers\OnlineMapsMarkerManagerBase.cs" />
     <Compile Include="Assets\Lidar\Scripts\GUIControllers\LidarMenu.cs" />
@@ -234,8 +234,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\ShowMarkerLabelsByZoomExample.cs" />
-    <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\OnlineMapsGooglePlaceDetails.cs" />
     <Compile Include="Assets\Lidar\Scripts\GUILayout\WidthAsAspectOfObjectHeight.cs" />
+    <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\OnlineMapsGooglePlaceDetails.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\ExtraTypes\OnlineMapsGeoRect.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Projections\OnlineMapsProjectionSphericalMercator.cs" />
     <Compile Include="Assets\Lidar\Scripts\Exportation\ExportManager.cs" />
@@ -261,8 +261,8 @@
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Core\OnlineMapsJPEGDecoder.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Plugins\OnlineMapsRawImageTouchForwarder.cs" />
     <Compile Include="Assets\ShipMarker.cs" />
-    <Compile Include="Assets\Infinity Code\Online maps\Scripts\Cache\OnlineMapsCache.cs" />
     <Compile Include="Assets\Lidar\Scripts\Camera\CameraController.cs" />
+    <Compile Include="Assets\Infinity Code\Online maps\Scripts\Cache\OnlineMapsCache.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Core\OnlineMapsInteractiveElementManager.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\Results\OnlineMapsAMapSearchResult.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Markers\Instances\OnlineMapsMarkerBase.cs" />
@@ -292,8 +292,8 @@
     <Compile Include="Assets\Lidar\Scripts\Exportation\SaveLoadTester.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\WebServices\OnlineMapsGoogleRoads.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Examples\Scripts\DriveToPoint.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Lidar\Scripts\GUIControllers\SceneEditor.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Lidar\Scripts\ObjectControllers\CarMovement.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\JSON\OnlineMapsJSONObject.cs" />
@@ -367,8 +367,8 @@
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Plugins\OnlineMapsPBR.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Markers\Drawers\OnlineMapsMarker2DMeshDrawer.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Buildings\OnlineMapsBuildings.cs" />
-    <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\GroupMarkersExample.cs" />
     <Compile Include="Assets\Lidar\Scripts\LidarSensor\Laser.cs" />
+    <Compile Include="Assets\Infinity Code\Online maps\Examples (API usage)\GroupMarkersExample.cs" />
     <Compile Include="Assets\Lidar\Scripts\LidarSensor\Connector.cs" />
     <Compile Include="Assets\Infinity Code\Online maps\Scripts\Elevations\OnlineMapsElevationManager.cs" />
     <Compile Include="Assets\Lidar\Scripts\GUILayout\WidthAsAspectOfHeight.cs" />
@@ -499,6 +499,7 @@
     <None Include="Packages\com.waveharmonic.crest\package.json" />
     <None Include="Packages\com.waveharmonic.crest\Runtime\Shaders\Library\Utility\Macros.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\OccaSoftware\Crosshairs\Readme.txt" />
     <None Include="Packages\com.waveharmonic.crest\Runtime\Shaders\Library\Helpers.hlsl" />
     <None Include="Packages\com.waveharmonic.crest\Runtime\Shaders\Data\Input\Hidden\ClipPrimitive.compute" />
     <None Include="Packages\com.waveharmonic.crest\Runtime\Shaders\Data\Input\Hidden\CopyDepthIntoCache.shader" />
@@ -1268,6 +1269,10 @@
     <ProjectReference Include="WaveHarmonic.Crest.Samples.Ripples.csproj">
       <Project>{e5d8ff3c-c938-c53b-954b-9ae87eec1127}</Project>
       <Name>WaveHarmonic.Crest.Samples.Ripples</Name>
+    </ProjectReference>
+    <ProjectReference Include="OccaSoftware.Crosshairs.Editor.csproj">
+      <Project>{5133293c-ee00-1b6f-7632-196c48abc9d4}</Project>
+      <Name>OccaSoftware.Crosshairs.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="WaveHarmonic.Crest.Shared.csproj">
       <Project>{17b9f15f-45f1-c345-0a21-ae44d179b169}</Project>
